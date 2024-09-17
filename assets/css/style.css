@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f7d2d2;
+}
+.flag-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 25%;
+  border-bottom: 1px solid palevioletred;
+  border-left: 1px solid palevioletred;
+}
+.flag-row {
+  width: 50%;
+  height: 50%;
+  display: flex;
+}
+.flag-col {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.flag-row div {
+  width: 33.3333%;
+}
+.flag-col div {
+  height: 33.3333%;
+}
+
+.red {
+  background-color: #fb090b;
+}
+.white {
+  background-color: white;
+}
+.black {
+  background-color: black;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.lightskyblue {
+  background-color: lightskyblue;
+}
+.blue {
+  background-color: #2e3092;
+}
+.yellow2 {
+  background-color: #f9d10d;
+}
+
+.two-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.two-icons i {
+  font-size: 22px;
+  color: green;
+}
+.one-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.japan {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.japan-sun {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fb090b;
+}
+
+.palestine,
+.UAE {
+  position: relative;
+}
+.palestine .t-red {
+  position: absolute;
+  border-right: 40px solid transparent;
+  border-left: 40px solid #fb090b;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+}
+.UAE .s-red {
+  position: absolute;
+  height: 100%;
+  width: 25%;
+  background-color: #fb090b;
+}
+
+.flag-relative {
+  position: relative;
+}
+.flag-relative .flag-absolute {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .parent{
+  position: relative;
+}
+.child{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
